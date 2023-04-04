@@ -11,7 +11,10 @@ In order to run the model on docker, following commands has to be used.
 
 First, we need to have flask. We need to **set FLASK_APP=app.py**. We can run it by **flask run** or **python -m flask run**.
 Secondly, we need to create a docker image **docker build — tag lemaynlp .**. Then,we need to create the docker image and container by selecting respective port number **docker run -i -p 6000:8000 lemaynlp**.
-In order to check, whether its recieving properly we can run **curl //localhost:9000 -v**. Now, we can check all running containers in **docker ps**. We can test the output by running test.py. 
+In order to check, whether its recieving properly we can run **curl //localhost:9000 -v**. Now, we can check all running containers in **docker ps**. We can test the output by running test.py. I have uploaded the test output in tht que folder. 
+
+
+
 Here, in Que 3, **the dataset ag_news was selected.** As discussed in the meeting, the task is related to medical device mainly. Thus, I thought of taking this dataset. For text classification tasks, a collection of news stories known as the AG News dataset has been extensively employed. It includes 120,000 news items from the World, Sports, Business, and Science/Technology categories. The dataset was first developed to assess the performance of several machine learning algorithms for text categorization tasks.The news pieces came from the English-language editions of a number of news organisations, including CNN, Reuters, and the BBC. Each piece of content in the dataset is assigned to one of the four aforementioned groups. With 30,000 articles in each of the four categories, the dataset is uniformly distributed. We can use this pre-processing as a reference for fetching the data from the mdeical reports or articles. 
 
 The file Pankti_Lemay_ai_que3.ipynb contains the details about the que3. 
