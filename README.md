@@ -11,7 +11,7 @@ In order to run the model on docker, following commands has to be used.
 
 First, we need to have flask. We need to **set FLASK_APP=app.py**. We can run it by **flask run** or **python -m flask run**.
 Secondly, we need to create a docker image **docker build — tag lemaynlp .**. Then,we need to create the docker image and container by selecting respective port number **docker run -i -p 6000:8000 lemaynlp**.
-In order to check, whether its recieving properly we can run **curl //localhost:9000 -v**. Now, we can check all running containers in **docker ps**. We can test the output by running test.py. I have uploaded the test output in tht que folder. 
+In order to check, whether its recieving properly we can run **curl //localhost:9000 -v**. Now, we can check all running containers in **docker ps**. We can test the output by running test.py. I have uploaded the test output in tht que folder. In order to help parallel request and POST that, I have uploaded the code in app_nginx.py
 
 
 
